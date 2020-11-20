@@ -1,8 +1,8 @@
 # cc98-drawcard
-需要在浙江大学内网环境下使用。
+需要在**浙江大学内网**环境下使用。
 
 ## draw_card_v2
-使用selenium获取抽卡中心的cookie。
+使用selenium获取抽卡中心的cookie，需要确保chromedriver在系统环境变量中。
 
 ## draw_card_v3
 用requests完成全部登录、授权。
