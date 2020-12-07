@@ -19,9 +19,10 @@
 
 增加抽卡情况总览和欧皇指数，需要pip安装`prettytable`和`pyecharts`
 
-![overview](./images/overview.png)
+<img src="./images/overview.png" alt="overview" width=600px />
 
-![gauge](./images/gauge.png)
+<img src="./images/gauge.png" alt="gauge" width=600px />
+
 
 ## 查看抽到的SSR和M卡
 
