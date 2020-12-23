@@ -15,9 +15,15 @@
 
 
 
+## draw_card_v3.1(推荐使用)
+
+在v3基础上增加「抽卡情况总览」和「自动分解重复卡牌」，需要pip安装`prettytable`。
+
+
+
 ## draw_card_v4
 
-增加抽卡情况总览和欧皇指数，需要pip安装`prettytable`和`pyecharts`
+在v3基础上增加「抽卡情况总览」和「欧皇指数」，需要分别pip安装`prettytable`和`pyecharts`。
 
 <img src="./images/overview.png" alt="overview" width=600px />
 
