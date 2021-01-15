@@ -1,17 +1,17 @@
 # cc98-drawcard
 需要在**浙江大学内网**环境下使用。
 
-
+![](./images/full.png)
 
 ## draw_card_v2
 
-使用selenium获取抽卡中心的cookie，需要确保chromedriver在系统环境变量中。
+使用`Selenium`获取抽卡中心的cookies，需要确保 chromedriver 在系统环境变量中。
 
 
 
 ## draw_card_v3
 
-用requests完成全部登录、授权。
+用`Requests`完成全部登录、授权。
 
 
 
@@ -19,20 +19,14 @@
 
 在v3基础上增加「抽卡情况总览」和「自动分解重复卡牌」，需要pip安装`prettytable`。
 
-
-
-## draw_card_v4
-
-在v3基础上增加「抽卡情况总览」和「欧皇指数」，需要分别pip安装`prettytable`和`pyecharts`。
-
 <img src="./images/overview.png" alt="overview" width=600px />
 
-<img src="./images/gauge.png" alt="gauge" width=600px />
+
 
 
 ## 查看抽到的SSR和M卡
 
-可以添加下面的代码来查看抽到的SSR和M卡，需要pip安装`scikit-image`。
+可以添加下面的代码来查看抽到的`SSR`和`M`卡，需要pip安装`scikit-image`。
 
 ```python
 from skimage import io
@@ -45,3 +39,4 @@ if SSR_M:
         io.imshow(image)
         io.show()
 ```
+
